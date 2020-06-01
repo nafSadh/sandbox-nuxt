@@ -92,3 +92,31 @@ consider adding the following to `.prettierrc`:
 ```
 
 If face this issue on `git commit`, make sure `.prettierrc` is added to the version control.
+
+### Setting up GitHub Pages
+
+_Using custom domain_
+
+Use [push-dir package](https://github.com/L33T-KR3W/push-dir) following instructions for [command line deployment](https://nuxtjs.org/faq/github-pages/#command-line-deployment)
+
+Install via npm
+
+```sh
+npm install push-dir --save-dev
+```
+
+Add following commands to `package.json`:
+
+```json
+"scripts": {
+  ...
+  "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+}
+```
+
+Then generate and deploy your static application:
+
+```sh
+npm run generate
+npm run deploy
+```
