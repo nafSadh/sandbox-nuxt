@@ -93,7 +93,7 @@ consider adding the following to `.prettierrc`:
 
 If face this issue on `git commit`, make sure `.prettierrc` is added to the version control.
 
-### Setting up GitHub Pages
+### Setting up GitHub Pages deployment
 
 _Using custom domain_
 
@@ -123,4 +123,11 @@ npm run deploy
 
 See commit: [4e00343](https://github.com/nafSadh/sandbox-nuxt/commit/4e00343b3a75cdabca9ba757f4c4c44425f68f32).
 
-Also, make sure your project is setup to render from `gh-pages` branch.
+TIP: make sure your project is setup to render from `gh-pages` branch.
+
+#### Fix lost CNAME
+
+Apparently push dir pushes a clean slate commit to gh-pages branch, so every
+time you need to add CNAME file as well. To do this easilly, just add a
+`staitc/CNAME` file and thus gh-pages root will have CNAME included.
+[efb4e38](https://github.com/nafSadh/sandbox-nuxt/commit/efb4e38877c03295517e2371c1efbca9fa3535ea)
