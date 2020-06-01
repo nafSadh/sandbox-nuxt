@@ -2,7 +2,7 @@
   <section class="section">
     <div class="columns is-mobile">
       <card title="Some card" icon="arrange-bring-to-front">
-        Some text for some card.
+        Some text on a card.
       </card>
     </div>
   </section>

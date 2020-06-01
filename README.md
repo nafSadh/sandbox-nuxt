@@ -120,3 +120,7 @@ Then generate and deploy your static application:
 npm run generate
 npm run deploy
 ```
+
+See commit: [4e00343](https://github.com/nafSadh/sandbox-nuxt/commit/4e00343b3a75cdabca9ba757f4c4c44425f68f32).
+
+Also, make sure your project is setup to render from `gh-pages` branch.
