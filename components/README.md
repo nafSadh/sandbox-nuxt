@@ -1,5 +1,5 @@
 # COMPONENTS
 
-The components directory contains your Vue.js Components.
+The components directory contains Vue.js Components.
 
 _Nuxt.js doesn't supercharge these components._
